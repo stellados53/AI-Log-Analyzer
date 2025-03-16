@@ -24,7 +24,7 @@ def load_log_file(file_path):
 def analyze_logs_with_gemini(log_content):
     """Uses Gemini API to analyze logs and categorize them as normal or attack with detailed MITRE ATT&CK framework references."""
     try:
-        genai.configure(api_key="GEMINI API KEY")
+        genai.configure(api_key="API_KEY")
         model = genai.GenerativeModel("gemini-1.5-pro")
         
         prompt = (
