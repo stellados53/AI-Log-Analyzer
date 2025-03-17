@@ -45,7 +45,7 @@ def main():
         print("\n==============================")
         print("                     AI LOG ANALYZER ")
         print("==============================")
-        print(" + -- --=[ AI-powered log analysis tool ]--  \n + -- --=[ Detects attacks & references MITRE ATT&CK ] \n + -- --=[ Provides forensic insights & mitigation steps ] \n  ")
+        print("\n + -- --=[ AI-powered log analysis tool ]--  \n + -- --=[ Detects attacks & references MITRE ATT&CK ] \n + -- --=[ Provides forensic insights & mitigation steps ] \n  ")
         log_file_path = input("Enter the log file path: ")  # Ask for log file path at runtime
         logs = load_log_file(log_file_path)
         
