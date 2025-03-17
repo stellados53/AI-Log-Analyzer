@@ -30,7 +30,7 @@ AI-Powered Log Analyzer is a Python-based tool that leverages **Google's Gemini 
 - Now modify with your actual API key. `nano main.py`.
 - Set up the API Key.
    ```
-   GEMINI_API_KEY=your_api_key_here
+   genai.configure(api_key="aaouewnvbsxxxxxx")
 - Replace `api_key` with your actual API key in `line 27`.
 
 4. Install dependencies:
