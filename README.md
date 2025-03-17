@@ -31,6 +31,7 @@ AI Log Analyzer is a Python-based tool that leverages **Google's Gemini AI** to 
 - Replace `api_key` with your actual API key in `line 27`.
   ```
   genai.configure(api_key="aaouewnvbsxxxxxx")
+- `ctrl + x` and `Y` ENTER.
 4. Install dependencies:
    ```bash
    pip install -r requirements.txt
