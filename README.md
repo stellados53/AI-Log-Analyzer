@@ -1,7 +1,6 @@
 # AI-Log-Analyzer
 
-## Overview  
-AI-Powered Log Analyzer is a Python-based tool that leverages **Google's Gemini AI** to analyze server logs, detect cyber threats, and classify them using the **MITRE ATT&CK framework**. It helps security professionals and IT students assess logs for potential attacks, Indicators of Compromise (IoCs), and provides mitigation strategies.  
+AI Log Analyzer is a Python-based tool that leverages **Google's Gemini AI** to analyze server logs, detect cyber threats, and classify them using the **MITRE ATT&CK framework**. It helps security professionals and IT students assess logs for potential attacks, Indicators of Compromise (IoCs), and provides mitigation strategies.  
 
 ## Features  
 - **AI-Driven Analysis**: Uses **Gemini AI** to classify logs as normal or attack-related.  
