@@ -43,7 +43,7 @@ def analyze_logs_with_gemini(log_content):
 def main():  
     while True:
         print("\n==============================")
-        print("                     AI LOG ANALYZER ")
+        print("       AI LOG ANALYZER ")
         print("==============================")
         print("\n + -- --=[ AI-powered log analysis tool ]--  \n + -- --=[ Detects attacks & references MITRE ATT&CK ] \n + -- --=[ Provides forensic insights & mitigation steps ] \n  ")
         log_file_path = input("Enter the log file path: ")  # Ask for log file path at runtime
