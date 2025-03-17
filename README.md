@@ -17,7 +17,7 @@ AI-Powered Log Analyzer is a Python-based tool that leverages **Google's Gemini 
 ## Installation  
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/yourusername/ai-log-analyzer.git
+   git clone https://github.com/stellados53/AI-Log-Analyzer.git
 
 2. Navigate to the project folder:
    ```bash
