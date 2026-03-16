@@ -25,7 +25,7 @@ def analyze_logs_with_gemini(log_content):
     """Uses Gemini API to analyze logs and categorize them as normal or attack with detailed MITRE ATT&CK framework references."""
     try:
         genai.configure(api_key="API_KEY")
-        model = genai.GenerativeModel("gemini-1.5-pro")
+        model = genai.GenerativeModel("gemini-3-flash-preview")
         
         prompt = (
             "Analyze the following server logs sequentially. For each log entry, determine whether it represents normal activity or an attack. "
